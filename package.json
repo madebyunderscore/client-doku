@@ -1,0 +1,20 @@
+{
+	"name": "client-doku",
+	"version": "1.0.0",
+	"description": "Custom Webflow enhancements for DOKU.",
+	"scripts": {
+	  "build:js": "vite build",
+	  "build:css": "cleancss -o dist/main.min.css main.css",
+	  "build": "pnpm build:js && pnpm build:css",
+	  "dev": "vite"
+	},
+	"devDependencies": {
+	  "clean-css-cli": "^5.6.3",
+	  "fast-glob": "^3.3.3",
+	  "vite": "^6.2.6"
+	},
+	"dependencies": {
+	  "dompurify": "^3.2.5",
+	  "swiper": "^11.2.6"
+	}
+  }
