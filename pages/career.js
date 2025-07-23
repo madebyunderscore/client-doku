@@ -58,7 +58,7 @@
           jobs.forEach(({ jobId, jobTitle }) => {
             const a = document.createElement('a');
             a.className   = 'career_job-link';
-            a.href        = `https://doku-payment.webflow.io/career/detail?jobId=${jobId}`;
+            a.href        = `https://doku.com/career/detail?jobId=${jobId}`;
             a.target      = '_blank';
             a.textContent = jobTitle || 'Untitled position';
             list.appendChild(a);
